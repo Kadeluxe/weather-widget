@@ -1,0 +1,35 @@
+:host {
+  --rem: 16px;
+  --root-padding: var(--rem);
+  font-size: var(--rem);
+  font-family: "Segoe UI", sans-serif;
+  position: relative;
+  display: inline-block;
+  padding: var(--root-padding);
+}
+
+.svg-icon {
+  display: inline-flex;
+
+  > svg {
+    position: relative;
+    top: .125em;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+}
+
+.vue-feather {
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+
+button {
+  background: transparent;
+  border: 0;
+}
